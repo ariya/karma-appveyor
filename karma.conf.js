@@ -18,6 +18,7 @@ module.exports = function (config) {
         },
 
         singleRun: true,
+        colors: true,
 
         detectBrowsers: {
             enabled: true,
