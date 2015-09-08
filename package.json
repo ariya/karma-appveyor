@@ -1,0 +1,31 @@
+{
+  "name": "karma-appveyor",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ariya Hidayat",
+    "email": "ariya.hidayat@gmail.com"
+  },
+  "description": "Karma AppVeyor integration demo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariya/karma-appveyor.git"
+  },
+  "main": "test/sqrt.js",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "karma": "~0.13.3",
+    "karma-chai": "~0.1.0",
+    "karma-chrome-launcher": "~0.2.0",
+    "karma-detect-browsers": "~2.0.1",
+    "karma-firefox-launcher": "~0.1.6",
+    "karma-ie-launcher": "~0.2.0",
+    "karma-mocha": "~0.2.0",
+    "karma-safari-launcher": "~0.1.1",
+    "mocha": "~2.2.5"
+  },
+  "scripts": {
+    "quick-test": "mocha",
+    "test": "mocha && karma start"
+  }
+}
